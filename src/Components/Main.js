@@ -1,9 +1,7 @@
 import React from 'react'
-import Heading from './Heading'
-import Form from './Form'
-import Search from './Search'
-import FacultyLogin from './FacultyLogin'
-import Upload from './Upload'
+import Search from './Search/Search'
+import FacultyLogin from './Login/FacultyLogin'
+import Upload from './Upload/Upload'
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 
 function Main() {
